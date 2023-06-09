@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/pattern-background-mobile.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.section {
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    width: 330px;
+    height: 520px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+
+.img1 {
+    background-image: url(../images/illustration-hero.svg);
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+}
+
+.sh1 {
+    padding-top: 30px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.sp1 {
+    padding-top: 20px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.box {
+    padding-top: 30px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#ann-p {
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+#price-p {
+    color: hsl(224, 23%, 55%);
+}
+
+.change {
+    font-size: 15px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+    text-decoration: underline;
+    padding-left: 20px;
+}
+
+.change:hover {
+    cursor: pointer;
+}
+
+.buttons {
+    padding-top: 30px;
+}
+
+.proceed {
+    width: 250px;
+    margin: auto;
+    font-weight: 700;
+    padding: 15px;
+    background-color: hsl(223, 63%, 46%);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.proceed:hover {
+    background-color: hsl(224, 23%, 55%);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.cancel {
+    padding-top: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+.cancel:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
